@@ -140,7 +140,7 @@ const Sidebar = () => {
             {/* menu manage team*/}
             <Item
               title="Manage Team"
-              to="/manageteam"
+              to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
