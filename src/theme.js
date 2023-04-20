@@ -141,7 +141,7 @@ export const themeSettings = (mode) => {
               light: colors.grey[400],
             },
             background: {
-              default: colors.primary[600],
+              default: "#0e0e0f",
             },
           }
         : {
@@ -158,7 +158,7 @@ export const themeSettings = (mode) => {
               light: colors.grey[100],
             },
             background: {
-              default: "#fcfcfc",
+              default: "#EEEEEE",
             },
           }),
     },
@@ -212,3 +212,6 @@ export const useMode = () => {
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   return [theme, colorMode];
 };
+
+
+#3A98B9
