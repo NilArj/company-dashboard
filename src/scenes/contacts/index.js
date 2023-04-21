@@ -63,7 +63,7 @@ const Contacts = () => {
     <Box m="20px">
       <Header title="Contacts" subtitle="List of Contacts" />
       <Box
-        m="40px 0 0 0"
+        m="20px 0 0 0"
         height="65vh"
         sx={{
           "& .MuiDataGrid-root": {
@@ -73,18 +73,16 @@ const Contacts = () => {
             borderBottom: "none",
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: colors.primary[800],
+            backgroundColor: colors.grey[800],
             borderBottom: "none",
           },
-          "& .MuiDataGrid-virtualScroller": {
-            backgroundColor: colors.primary[900],
-          },
+
           "& .MuiDataGrid-footerContainer": {
             borderTop: "none",
-            backgroundColor: colors.primary[800],
+            backgroundColor: colors.grey[800],
           },
           "& .MuiCheckbox-root": {
-            color: `${colors.primary[400]} !important`,
+            color: `${colors.primary[200]} !important`,
           },
           "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
             color: `${colors.grey[300]} !important`,

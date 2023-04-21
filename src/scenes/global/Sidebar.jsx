@@ -45,7 +45,7 @@ const Sidebar = () => {
     <Box
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${colors.primary[700]} !important`,
+          background: `${colors.grey[800]} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -54,7 +54,7 @@ const Sidebar = () => {
           padding: "5px 20px 5px 20px !important",
         },
         "& .pro-inner-item:hover": {
-          color: "#fafafb !important",
+          color: `${colors.blueAccent[100]} !important`,
         },
         "& .pro-menu-item.active": {
           color: "#fafafb !important",
@@ -111,7 +111,11 @@ const Sidebar = () => {
                 >
                   SIOBHAN ROY
                 </Typography>
-                <Typography variant="h5" color={colors.primary[200]}>
+                <Typography
+                  variant="h5"
+                  color={colors.greenAccent[400]}
+                  fontWeight="semibold"
+                >
                   VC ADMIN
                 </Typography>
               </Box>
@@ -131,7 +135,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "20px 0 5px 20px" }}
+              sx={{ m: "15px 0 5px 20px" }}
             >
               Data
             </Typography>
@@ -166,7 +170,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "20px 0 5px 20px" }}
+              sx={{ m: "15px 0 5px 20px" }}
             >
               Pages
             </Typography>
@@ -192,7 +196,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "20px 0 5px 20px" }}
+              sx={{ m: "15px 0 5px 20px" }}
             >
               Charts
             </Typography>

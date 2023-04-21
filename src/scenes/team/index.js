@@ -54,8 +54,8 @@ const Team = () => {
             justifyContent="center"
             backgroundColor={
               access === "admin"
-                ? colors.blueAccent[700]
-                : colors.blueAccent[500]
+                ? colors.greenAccent[800]
+                : colors.greenAccent[700]
             }
             borderRadius="4px"
           >
@@ -76,7 +76,7 @@ const Team = () => {
     <Box m="20px">
       <Header title="TEAM" subtitle="Managing the Team Members" />
       <Box
-        m="40px 0 0 0"
+        m="20px 0 0 0"
         height="65vh"
         sx={{
           "& .MuiDataGrid-root": {
@@ -86,18 +86,15 @@ const Team = () => {
             borderBottom: "none",
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: colors.primary[800],
+            backgroundColor: colors.grey[800],
             borderBottom: "none",
-          },
-          "& .MuiDataGrid-virtualScroller": {
-            backgroundColor: colors.primary[900],
           },
           "& .MuiDataGrid-footerContainer": {
             borderTop: "none",
-            backgroundColor: colors.primary[800],
+            backgroundColor: colors.grey[800],
           },
           "& .MuiCheckbox-root": {
-            color: `${colors.primary[400]} !important`,
+            color: `${colors.primary[200]} !important`,
           },
         }}
       >
