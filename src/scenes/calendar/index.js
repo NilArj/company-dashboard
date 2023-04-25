@@ -16,6 +16,7 @@ import {
 import Header from "../../components/Header";
 import { tokens } from "../../theme";
 
+
 const Calendar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -48,25 +49,35 @@ const Calendar = () => {
   };
 
   return (
-    <Box m="20px">
+    <Box m="20px" height="65vh">
       <Header title="Calendar" subtitle="Full Calendar Interactive Page" />
-      <Box display="flex" justifyContent="space-between">
+      <Box display="flex" justifyContent="space-between" m="20px 0 0 0">
         {/* events sidebar */}
         <Box
           flex="1 1 20%"
-          backgroundColor={colors.primary[400]}
-          p="10px"
-          borderRadius="4px"
+          backgroundColor={colors.grey[800]}
+          p="15px"
+          borderRadius="5px"
+          height="65vh"
+          maxWidth="20vw"
+          overflow="hidden"
         >
           <Typography variant="h5"> Events</Typography>
-          <List>
+          <List
+            sx={{
+              overflow: "auto hidden",
+              overflowY: "auto",
+              height: "100%",
+            }}
+          >
             {currentEvents.map((event) => (
               <ListItem
                 key={event.id}
                 sx={{
-                  backgroundColor: colors.blueAccent[500],
+                  backgroundColor: colors.greenAccent[500],
                   margin: "10px 0",
                   borderRadius: "2px",
+                  overflow: "auto",
                 }}
               >
                 <ListItemText
@@ -96,6 +107,7 @@ const Calendar = () => {
               interactionPlugin,
               listPlugin,
             ]}
+            eventBackgroundColor={colors.grey[800]}
             headerToolbar={{
               left: "prev,next today",
               center: "title",
@@ -111,7 +123,6 @@ const Calendar = () => {
             eventsSet={(events) => setCurrentEvents(events)}
             initialEvents={[
               { id: "1", title: "Practice all day", date: "2023-04-19" },
-              { id: "2", title: "Practice half day", date: "2023-04-20" },
             ]}
           />
         </Box>

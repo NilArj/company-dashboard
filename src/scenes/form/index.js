@@ -1,4 +1,4 @@
-import { Box, Button, TextField, Autocomplete } from "@mui/material";
+import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -138,7 +138,6 @@ const Form = () => {
                   label="Address 1"
                   onBlur={handleBlur}
                   onChange={handleChange}
-                  onFilled="transparent"
                   value={values.address1}
                   name="address1"
                   error={!!touched.address1 && !!errors.address1}

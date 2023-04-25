@@ -47,7 +47,7 @@ const BarChart = ({ isDashboard = false }) => {
       keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
       indexBy="country"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
-      padding={0.3}
+      padding={0.2}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
       colors={{ scheme: "green_blue" }}
@@ -83,7 +83,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickRotation: 0,
         legend: isDashboard ? undefined : "Country",
         legendPosition: "middle",
-        legendOffset: 32,
+        legendOffset: 30,
       }}
       axisLeft={{
         tickSize: 5,

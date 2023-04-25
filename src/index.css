@@ -10,6 +10,10 @@ body,
   font-family: "Source Sans Pro", sans-serif;
 }
 
+ :root {
+    --fc-neutral-bg-color:  #9f9f9f;
+} 
+
 .app {
   display: flex;
   position: relative;
@@ -17,6 +21,7 @@ body,
 
 ::-webkit-scrollbar {
   width: 10px;
+  
 }
 
 /* Track */
@@ -34,4 +39,19 @@ body,
   background: #555;
 }
 
+/* input autocomplete */
+input:-webkit-autofill, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+  -webkit-box-shadow: 0 0 0 30px #3e3e3f inset !important;
+}
+
+.fc .fc-button-primary{
+  background-color: #778b75 !important;
+  border-color: #445842;
+}
+.fc-button-active-border-color{
+  background-color: #556e53 !important;
+}
 

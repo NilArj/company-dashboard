@@ -7,7 +7,7 @@ const Geography = () => {
   return (
     <Box m="20px">
       <Header title="Geography Chart" subtitle="Geography Chart" />
-      <Box height="65vh">
+      <Box m="20px 0 0 0" height="65vh">
         <GeographyChart />
       </Box>
     </Box>
