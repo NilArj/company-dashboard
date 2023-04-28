@@ -30,9 +30,9 @@ To run the app locally, follow these steps:
 
 ## Screenshots
 <div style="display: flex; flex-direction: row;">
-  <img  style="margin-right: 10px;" src="https://github.com/NilArj/company-dashboard/blob/8f545ddc6ef854ca188a5cadd4988bc0003ef58f/src/images/screenshot(1).png" alt="dashboard" width="500" height="350">
-   <img  style="margin-right: 10px;" src="https://github.com/NilArj/company-dashboard/blob/8f545ddc6ef854ca188a5cadd4988bc0003ef58f/src/images/screenshot.png" alt="dashboard" width="500" height="350">
-   <img  style="margin-right: 10px;" src="https://github.com/NilArj/company-dashboard/blob/8f545ddc6ef854ca188a5cadd4988bc0003ef58f/src/images/ezgif-video-to-gif.gif" alt="dashboard" width="500" height="350">
+  <img  style="margin-right: 10px;" src="https://github.com/NilArj/company-dashboard/blob/8f545ddc6ef854ca188a5cadd4988bc0003ef58f/src/images/screenshot(1).png" alt="dashboard" width="600" height="350">
+   <img  style="margin-right: 10px;" src="https://github.com/NilArj/company-dashboard/blob/8f545ddc6ef854ca188a5cadd4988bc0003ef58f/src/images/screenshot.png" alt="dashboard" width="600" height="350">
+   <img  style="margin-right: 10px;" src="https://github.com/NilArj/company-dashboard/blob/8f545ddc6ef854ca188a5cadd4988bc0003ef58f/src/images/ezgif-video-to-gif.gif" alt="dashboard" width="600" height="350">
  
 </div>
 
