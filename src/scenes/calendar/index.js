@@ -55,7 +55,7 @@ const Calendar = () => {
         {/* events sidebar */}
         <Box
           flex="1 1 20%"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           p="15px"
           borderRadius="5px"
           height="65vh"

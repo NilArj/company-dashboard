@@ -51,7 +51,7 @@ const Dashboard = () => {
         {/* top charts */}
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -72,7 +72,7 @@ const Dashboard = () => {
 
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -93,7 +93,7 @@ const Dashboard = () => {
 
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -114,7 +114,7 @@ const Dashboard = () => {
 
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -127,7 +127,7 @@ const Dashboard = () => {
             increase="+43%"
             icon={
               <TrafficIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "18px" }}
+                sx={{ color: colors.greenAccent[900], fontSize: "18px" }}
               />
             }
           />
@@ -139,7 +139,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 8"
           gridRow="span 2"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
         >
           <Box
             mt="10px"
@@ -181,7 +181,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           overflow="auto"
         >
           <Box
@@ -234,7 +234,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           p="5px"
         >
           <Typography variant="h5" fontWeight="600">
@@ -260,7 +260,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
         >
           <Typography
             variant="h5"
@@ -277,7 +277,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.grey[800]}
+          backgroundColor={colors.grey[900]}
           padding="5px"
         >
           <Typography

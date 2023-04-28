@@ -61,12 +61,12 @@ const Invoices = () => {
             borderBottom: "none",
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: colors.grey[800],
+            backgroundColor: colors.grey[900],
             borderBottom: "none",
           },
           "& .MuiDataGrid-footerContainer": {
             borderTop: "none",
-            backgroundColor: colors.grey[800],
+            backgroundColor: colors.grey[900],
           },
           "& .MuiCheckbox-root": {
             color: `${colors.blueAccent[200]} !important`,

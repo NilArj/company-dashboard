@@ -85,14 +85,7 @@ const BarChart = ({ isDashboard = false }) => {
         legendPosition: "middle",
         legendOffset: 30,
       }}
-      axisLeft={{
-        tickSize: 5,
-        tickPadding: 5,
-        tickRotation: 0,
-        legend: isDashboard ? undefined : "Food",
-        legendPosition: "middle",
-        legendOffset: -40,
-      }}
+      axisLeft={null}
       enableLabel={false}
       labelSkipWidth={12}
       labelSkipHeight={12}
@@ -107,7 +100,7 @@ const BarChart = ({ isDashboard = false }) => {
           direction: "column",
           justify: false,
           translateX: 120,
-          translateY: 0,
+          translateY: isDashboard ? 40 : 0,
           itemsSpacing: 2,
           itemWidth: 100,
           itemHeight: 20,
