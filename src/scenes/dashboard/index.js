@@ -127,7 +127,7 @@ const Dashboard = () => {
             increase="+43%"
             icon={
               <TrafficIcon
-                sx={{ color: colors.greenAccent[900], fontSize: "18px" }}
+                sx={{ color: colors.greenAccent[600], fontSize: "18px" }}
               />
             }
           />
