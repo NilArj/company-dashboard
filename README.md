@@ -1,6 +1,6 @@
 # Company Dashboard
 
-This project is a company dashboard built using React.js, Material UI, Nivo, and Formik.
+This project is a company dashboard built using React.js, Material UI, Nivo, and Formik. It has multiple pages with different charts and tables to display company data.
 
 
 ## Table of Contents
@@ -11,9 +11,11 @@ This project is a company dashboard built using React.js, Material UI, Nivo, and
 
 
 ## Features
-+ The page has been built using React.js and Material UI, making it easy to extend and maintain.
-+ Nivo has been used to create charts.
-+ Formik has been used to build forms.
++ The company dashboard has been designed using Material UI.
++ The page has been built using React.js, making it easy to extend and maintain.
++ Nivo has been used to create data visualization apps.
++ Formik has been used for form handling.
++ The dashboard includes multiple pages with different charts and tables to display company data.
 
 ## Technologies Used
 + React.js
